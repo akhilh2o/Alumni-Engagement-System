@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home || Alumni Engagement System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Home.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="imgalary.css" />
+
+
+    <script></script>
+    <style>
+        /* .contact { */
+        /* padding: 80px 120px; */
+        /* } */
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: #EEEE;
+        }
+        
+        .person {
+            border: 10px solid transparent;
+            margin-bottom: 25px;
+            width: 80%;
+            height: 80%;
+            opacity: 0.7;
+        }
+        
+        .person:hover {
+            border-color: #f1f1f1;
+        }
+        
+        .footer a {
+            color: white;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <!------------------------ navbar-head----------------------- -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="ContactUs.html">Alumni ES</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-home"></span> Home</a>
+                    </li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="jobs.html">
+                            <span class="glyphicon glyphicon-hdd"></span> Placement</a>
+                    </li>
+                    <li>
+                        <a href="marketing.html">
+                            <span class="glyphicon glyphicon-map-marker"></span> Marketing</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="registration.html">
+                            <span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="login.html">
+                            <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel top -->
+    <div class="container  carousel" style="width:100%;margin-top:5%;padding: 0%;">
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <img src="images/slide (4).jpg" alt="Los Angeles" style="width:100%;height: 400px;">
+                    <div class="carousel-caption">
+                        <h3>University of Los angles</h3>
+                        <p>Los Angeles University is best of the world university </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/slide (2).jpg" alt="Chicago" style="width:100%;height: 400px;">
+                    <div class="carousel-caption">
+                        <h3>Chicago University </h3>
+                        <p> University of Chicago that is best Educational hub. Thank you, Chicago!</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/slide (3).jpg" alt="New York" style="width:100%;height: 400px;">
+                    <div class="carousel-caption">
+                        <h3> University of New York</h3>
+                        <p> We respect of the University. We love the Big Applse!</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- after carousel  main content -->
+    <div class="container" style="margin-top: 30px;">
+
+        <div class="col-md-7">
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">FUNDRAISING PROJECTS
+                    <a href="fundraisingmain.html " class="text-right "> View All</a>
+                </div>
+                <div class="row ">
+                    <div class=" panel-body ">
+
+                        <div class="col-md-6  ">
+                            <a href=" " style="text-decoration: none;display: block; ">
+                                <img class="img-rounded" src="images/fund3.jpg " alt="fundraising Project for our collage. " style="width:290px;height: 220px;box-shadow: 5px 5px 3px #aaaaaa; ">
+                                <br>
+                                <h4 class="text-danger ">Scholrships</h4>
+                                <p>Student Scholarship fund this governmental service who can use...</p>
+                                <br>
+
+
+                            </a>
+                            <a href="fundraisingmain.html">
+                                <p class="text-right text-danger">
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> View More</p>
+                            </a>
+
+
+
+
+
+                        </div>
+                        <div class="col-md-6 ">
+                            <a href=" " style="text-decoration:none;display:block; ">
+
+                                <img class="img-rounded" src="images/fund2.jpg " alt="fundraising Project for our collage. " style="width:290px;box-shadow: 5px 5px 3px #aaaaaa; ">
+                                <h4 class="text-danger ">Class of 1992: Legecy Project</h4>
+                                <p>Class of 1992 silver jubilee Reunion Project are started in 23 june 1998 and now its running...</p>
+                                <br>
+                                <br> </a>
+                            <a href="fundraisingmain.html">
+                                <p class="text-right text-danger">
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i> View More</p>
+                            </a>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="col-md-4">
+            <div class="panel panel-primary ">
+                <div class="panel-heading ">Letest News</div>
+                <div class=" panel-body ">
+                    <p><i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html "> Hederabad Alumni Association ! Hederabad Conference !</a>
+                    </p>
+
+
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">IDF Diabetes Complications and Foot Congress 2018</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">CII Green Building Congress </a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+
+                        <a href="http://www.hicc.com/upcoming-events.html "> Hederabad Alumni Association ! Hederabad Conference !</a>
+
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">IDF Diabetes Complications and Foot Congress 2018</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">CII Green Building Congress </a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+
+                        <a href="http://www.hicc.com/upcoming-events.html "> Hederabad Alumni Association ! Hederabad Conference !</a>
+
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">IDF Diabetes Complications and Foot Congress 2018</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">CII Green Building Congress </a>
+                    </p>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="col-md-7 ">
+            <div class="panel panel-primary ">
+
+                <div class="panel-heading ">JOB AND INTERNSHIPS
+
+                    <a href="jobs.html " class="text-right ">
+                        <i class="fa fa-angle-double-right " aria-hidden="true "></i> View All</a>
+                </div>
+                <div class="row ">
+                    <div class=" panel-body ">
+                        <div class="col-md-6 ">
+                            <a href="jobs.html">
+                                <h5><strong> Technical Analyst</strong> | Noval Analyst</h5>
+                            </a>
+
+                            <h6><strong> Location</strong> : Hyderabad</h6>
+                            <h6><strong> Salary</strong> : 21K per Month</h6>
+                            <a href="jobs.html "><button type="button " class="btn btn-primary ">Apply</button></a>
+                            <br>
+                            <a href="jobs.html">
+                                <h5>
+                                    <strong> Technical Analyst</strong> | Noval Analyst</h5>
+                            </a>
+
+                            <h6>
+                                <strong> Location</strong> : Hyderabad</h6>
+                            <h6>
+                                <strong> Salary</strong> : 21K per Month</h6>
+                            <a href="jobs.html ">
+                                <button type="button " class="btn btn-primary ">Apply</button>
+                            </a>
+
+
+
+                        </div>
+                        <div class="col-md-5 ">
+                            <a href="jobs.html">
+                                <h5>
+                                    <strong> Technical Analyst</strong> | Noval Analyst</h5>
+                            </a>
+
+                            <h6>
+                                <strong> Location</strong> : Hyderabad</h6>
+                            <h6>
+                                <strong> Salary</strong> : 21K per Month</h6>
+                            <a href="jobs.html ">
+                                <button type="button " class="btn btn-primary ">Apply</button>
+                            </a> <br>
+                            <a href="jobs.html">
+                                <h5>
+                                    <strong> Technical Analyst</strong> | Noval Analyst</h5>
+                            </a>
+
+                            <h6>
+                                <strong> Location</strong> : Hyderabad</h6>
+                            <h6>
+                                <strong> Salary</strong> : 21K per Month</h6>
+                            <a href="jobs.html ">
+                                <button type="button " class="btn btn-primary ">Apply</button>
+                            </a>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="col-md-4 ">
+            <div class="panel panel-primary ">
+                <div class="panel-heading ">Our Story</div>
+                <div class=" panel-body ">
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+
+                        <a href="http://www.hicc.com/upcoming-events.html "> Hederabad Alumni Association ! Hederabad Conference !</a>
+
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">IDF Diabetes Complications and Foot Congress 2018</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">CII Green Building Congress </a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+
+                        <a href="http://www.hicc.com/upcoming-events.html "> Hederabad Alumni Association ! Hederabad Conference !</a>
+
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">IDF Diabetes Complications and Foot Congress 2018</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">CII Green Building Congress </a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+
+                        <a href="http://www.hicc.com/upcoming-events.html "> Hederabad Alumni Association ! Hederabad Conference !</a>
+
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">IDF Diabetes Complications and Foot Congress 2018</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-forward " aria-hidden="true "></i>
+                        <a href="http://www.hicc.com/upcoming-events.html ">CII Green Building Congress </a>
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- image gallery -->
+
+    <div class="container ">
+
+
+        <h1 class="text-center ">Our Galary</h1>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-one ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="images/collage1.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-two ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="http://www.tayloredwebs.co.uk/wp-content/uploads/2016/06/web-design-and-graphic-design-wallpapers.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-three ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="http://www.ayushmaantechnologies.com/wp-content/uploads/2017/01/5-things-to-consider-when-selecting-a-web-design-agency-1.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div> </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-four ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="images/collage2.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-five ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="http://www.tayloredwebs.co.uk/wp-content/uploads/2016/06/web-design-and-graphic-design-wallpapers.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-six ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="http://www.ayushmaantechnologies.com/wp-content/uploads/2017/01/5-things-to-consider-when-selecting-a-web-design-agency-1.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div> </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-seven ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="images/slide (4).jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-eight ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="http://www.tayloredwebs.co.uk/wp-content/uploads/2016/06/web-design-and-graphic-design-wallpapers.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-nine ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="http://www.ayushmaantechnologies.com/wp-content/uploads/2017/01/5-things-to-consider-when-selecting-a-web-design-agency-1.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div> </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-ten ">
+                <!---->
+                <figure>
+                    <h3>Service</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <a href="# " class="btn btn-read ">Read More</a>
+                </figure>
+                <img src="images/fund3.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-eleven ">
+                <!---->
+                <figure>
+                    <a href="# " class="btn pull-left ">
+                        <i class="fa fa-search "></i> View</a>
+                    <a href="# " class="btn pull-right ">Read More
+                <i class="fa fa-long-arrow-right " aria-hidden="true "></i>
+            </a>
+                </figure>
+                <img src="http://www.tayloredwebs.co.uk/wp-content/uploads/2016/06/web-design-and-graphic-design-wallpapers.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div class="col-md-4 center-block ">
+            <div class="section-box-twelve ">
+                <!---->
+                <figure>
+                    <a href="# ">
+                        <i class="fa fa-search "></i>
+                    </a>
+                </figure>
+                <img src="http://www.ayushmaantechnologies.com/wp-content/uploads/2017/01/5-things-to-consider-when-selecting-a-web-design-agency-1.jpg " class="img-responsive " />
+            </div>
+        </div>
+        <div> </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <!-- some content -->
+
+    <div class="container ">
+        <div class="row ">
+            <!-- first col 8 -->
+            <div class="col-md-8 ">
+                <!-- panel div -->
+                <div class="panel panel-primary ">
+                    <div class="panel-heading ">Our Thoughts </div>
+                    <div class="panel-body ">
+                        <!-- card 1 -->
+                        <div class="card ">
+                            <div class="card-body ">
+                                <blockquote class="blockquote ">
+                                    <p class="text-primary ">
+                                        <i class="fas fa-quote-left "></i> The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control
+                                        your life; and the procedure, the process is its own reward.
+                                        <i class="fas fa-quote-right "></i>
+                                    </p>
+                                    <footer class="card-blockquote text-right text-danger ">Amelia Earhart
+                                        <cite title="Source title ">Source title</cite>
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+
+                        <div class="card ">
+                            <div class="card-body ">
+                                <blockquote class="blockquote ">
+                                    <p class="text-success ">
+                                        <i class="fas fa-quote-left "></i> Permanence, perseverance and persistence in spite of all obstacles, discouragements, and impossibilities: It is this, that in all things distinguishes the strong soul from the
+                                        weak.
+                                        <i class="fas fa-quote-right "></i>
+                                    </p>
+                                    <footer class="card-blockquote text-right text-info ">Thomas Carlyle
+                                        <cite title="Source title ">Source title</cite>
+                                    </footer>
+                                </blockquote>
+
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="card ">
+                            <div class="card-body ">
+                                <blockquote class="blockquote ">
+                                    <p class="text-danger ">
+                                        <i class="fas fa-quote-left "></i> I am closest to my mother, as she is my rock, my pillar of strength, and my world. Not only has she stood by me through all times - happy, sad, and otherwise - but there have even
+                                        been moments when I had completely lost hope, and her immense belief in me had lifted me up.
+                                        <i class="fas fa-quote-right "></i>
+                                    </p>
+                                    <footer class="card-blockquote text-right text-primary ">Amruta Khanvilkar
+                                        <cite title="Source title ">Source title</cite>
+                                    </footer>
+                                </blockquote>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- second col 4 -->
+            <div class="col-md-4 ">
+                <h1 class="text-primary ">Our Activity</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- picture for about our team -->
+
+
+    <div class="container text-center ">
+        <h3>OUR TEAM</h3>
+        <p><em>We love Education!</em></p>
+        <p>We have created a Educational Hub for our Alumni and Our Student.</p>
+        <br>
+        <div class="row ">
+            <div class="col-sm-4 ">
+                <p class="text-center "><strong>Thamos clues</strong></p><br>
+                <a href="#ex " data-toggle="collapse ">
+                    <img src="images/profile.jpg " class="img-circle person " alt="Random Name " width="255px " heimages/ </a>
+                    <div id="ex " class="collapse ">
+                        <p>Guitarist and Lead Vocalist</p>
+                        <p>Loves long walks on the beach</p>
+                        <p>Member since 1988</p>
+                    </div>
+            </div>
+            <div class="col-sm-4 ">
+                <p class="text-center "><strong>Arpit Chaurasia</strong></p><br>
+                <a href="#ex2 " data-toggle="collapse ">
+                    <img src="images/profile.jpg " class="img-circle person " alt="Random Name " width="255px " height="100px ">
+                </a>
+                <div id="ex2 " class="collapse ">
+                    <p>Drummer</p>
+                    <p>Loves drummin'</p>
+                    <p>Member since 1988</p>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <p class="text-center "><strong>Deepal jarang</strong></p><br>
+                <a href="#ex3 " data-toggle="collapse ">
+                    <img src="images/profile.jpg " class="img-circle person " alt="Random Name " width="255px " height="255px ">
+                </a>
+                <div id="ex3 " class="collapse ">
+                    <p>Bass player</p>
+                    <p>Loves math</p>
+                    <p>Member since 2005</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div style="width:100%;height:400px; ">
+        <h1 class="text-center ">You Can See Here</h1>
+
+        <div class="mapouter ">
+
+            <div class="gmap_canvas ">
+                <iframe width="100% " height="400 " id="gmap_canvas " src="https://maps.google.com/maps?q=padma%20rav%20nagar%20hyderabad&t=&z=15&ie=UTF8&iwloc=&output=embed " frameborder="0 " scrolling="no " marginheight="0 " marginwidth="0 "></iframe>
+                <a href="https://www.pureblack.de "></a>
+            </div>
+            <style>
+                .mapouter {
+                    /* text-align: right; */
+                    height: 400px;
+                    width: 100%;
+                }
+                
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 400px;
+                    width: 100%;
+                }
+            </style>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- --------------footer--------------------- -->
+
+    <div class="container-fluid footer " style="background:#1b346c;padding-left: 90px;color: white;margin-top:40px;padding: 50px 200px 20px 200px; ">
+        <div class="row ">
+            <div class="col-sm-3 ">
+                <h4 class="text-justify text-uppercase "><i class="fa fa-search "></i> Browser</h4>
+                <hr>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">By Directary</a><br>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">By Search</a><br>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">By Resourchs</a><br>
+
+            </div>
+            <div class="col-sm-3 ">
+                <h4 class="text-justify text-uppercase "><i class="fas fa-graduation-cap "></i> Career</h4>
+                <hr>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">Job</a><br>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">Internship</a><br>
+
+            </div>
+            <div class="col-sm-3 ">
+                <h4 class="text-justify text-uppercase "><i class="fa fa-calendar-check-o " aria-hidden="true "></i> Events</h4>
+                <hr>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">Sansmaran 2018</a><br>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">NITIE hyderabad 2018</a><br>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">NITIE Delhi NCR2018</a><br>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">All Events</a><br>
+
+            </div>
+            <div class="col-sm-3 ">
+                <h4 class="text-justify text-uppercase "><i class="fa fa-address-book " aria-hidden="true "></i> Contact</h4>
+                <hr>
+                <span>Email:</span><br>
+                <a href=" ">guptaakhilesh978@gmail.com</a><br>
+                <span>Phone:</span>
+                <br>
+                <a href=" ">+918115630517/+919628223251</a><br><br><br>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" "> Privacy Policy </a><br>
+                <i class="fa fa-forward " aria-hidden="true "></i> <a href=" ">Term of Use</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="container-fluid " style="background:white;height: 50px;padding:20px 100px 10px 100px; ">
+        <div class="row ">
+            <div class="col-sm-4 text-left ">
+                <i class="fas fa-copyright "> Copyright 2018</i>
+            </div>
+            <div class="col-sm-4 text-center ">
+                <a href="# " class="fa fa-facebook "></a>
+                <a href="# " class="fa fa-twitter "></a>
+                <a href="# " class="fa fa-google "></a>
+                <a href="# " class="fa fa-linkedin "></a>
+                <a href="# " class="fa fa-youtube "></a>
+                <a href="# " class="fa fa-instagram "></a>
+                <a href="# " class="fa fa-pinterest "></a>
+                <a href="# " class="fa fa-snapchat-ghost "></a>
+                <a href="# " class="fa fa-skype "></a>
+                <a href="# " class="fa fa-android "></a>
+                <a href="# " class="fa fa-dribbble "></a>
+                <a href="# " class="fa fa-vimeo "></a>
+                <a href="# " class="fa fa-tumblr "></a>
+
+
+            </div>
+            <div class="col-sm-4 text-right ">
+                <span>Alumni Software Provided By:</span>
+                <a class="text-primary " href="https://www.facebook.com/flyingakhil ">
+                    <i class="fa fa-facebook-official " aria-hidden="true "> Akhilesh Gupta</i>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

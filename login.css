@@ -1,0 +1,71 @@
+.log {
+    width: 55%;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 10px 30px 0 rgba(0, 0, 0, 0.20);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 40%;
+    padding: 10px;
+    margin: 8px 0px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#button {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 14px;
+    margin: 8px 0px 0px 10px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    outline: none;
+}
+
+#button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 10px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 600px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: auto;
+    }
+}
+
+h2 {
+    text-align: center;
+}
